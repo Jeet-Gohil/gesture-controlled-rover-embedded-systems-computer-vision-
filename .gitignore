@@ -1,0 +1,110 @@
+# =====================================================================
+# Gitignore for Gesture Controlled Rover (Python / OpenCV / MediaPipe)
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# Virtual Environments
+# ---------------------------------------------------------------------
+gesture-env/
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# ---------------------------------------------------------------------
+# Python & Bytecode Caches
+# ---------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Testing / Type Checking / Coverage
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# ---------------------------------------------------------------------
+# IDEs & Code Editors
+# ---------------------------------------------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ---------------------------------------------------------------------
+# Operating System Files
+# ---------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+desktop.ini
+
+# ---------------------------------------------------------------------
+# Datasets, Crops, and Recorded Data
+# ---------------------------------------------------------------------
+my_data/
+crops/
+data/
+dataset/
+datasets/
+*.csv
+
+# ---------------------------------------------------------------------
+# Irrelevant Explanation / Research / Notes Markdown Files
+# ---------------------------------------------------------------------
+PERCEPTION_NOTES.md
+*NOTES*.md
+*notes*.md
+*explanation*.md
+notes/
+explanations/
+
+# Ensure the main repository README is tracked
+!README.md
+
+# ---------------------------------------------------------------------
+# Logs & Environment Secrets
+# ---------------------------------------------------------------------
+*.log
+.env
+.env.local
+.env.*.local
+
+# ---------------------------------------------------------------------
+# Pretrained Models / Task Binaries
+# (Uncomment the line below if you do NOT want to push the ~8.4MB model to GitHub)
+# *.task
+# models/
+
